@@ -10,12 +10,7 @@ node_js:
 #   - sudo apt-get -y install google-chrome-stable
 
 addons:
-  apt:
-    update: true
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
+  chrome: stable
 
 cache:
   directories:
